@@ -107,4 +107,10 @@ sensor:
 ```
 ![image](https://github.com/user-attachments/assets/79098e75-5fd0-4e3d-b6e2-e429612ea5e1)
 ![20240902_133311](https://github.com/user-attachments/assets/ac521749-3a84-4242-8aa9-efcfaae87dba)
+![Screenshot from 2024-09-02 14-46-53](https://github.com/user-attachments/assets/15ddaa2d-8c4b-49c8-9204-a49b5fb8423f)
+![Screenshot from 2024-09-02 14-49-52](https://github.com/user-attachments/assets/8b25f68a-5d98-4a54-817c-0537f010dbc2)
+![Screenshot from 2024-09-02 14-53-53](https://github.com/user-attachments/assets/09b89304-b2cd-4ca8-83bd-ca8d2e85ca6d)
+![image](https://github.com/user-attachments/assets/3b02087b-465a-4353-ad68-c532d93c0285)
+![image](https://github.com/user-attachments/assets/d2e487e4-97d4-434b-88ff-f5b23ce2c044)
+
 
