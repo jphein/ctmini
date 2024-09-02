@@ -105,4 +105,6 @@ sensor:
       - multiply: 0.001
     device_class: energy
 ```
+![image](https://github.com/user-attachments/assets/79098e75-5fd0-4e3d-b6e2-e429612ea5e1)
+![20240902_133311](https://github.com/user-attachments/assets/ac521749-3a84-4242-8aa9-efcfaae87dba)
 
