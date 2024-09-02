@@ -113,4 +113,7 @@ sensor:
 ![image](https://github.com/user-attachments/assets/3b02087b-465a-4353-ad68-c532d93c0285)
 ![image](https://github.com/user-attachments/assets/d2e487e4-97d4-434b-88ff-f5b23ce2c044)
 
+Then I made some little buscards:
+![image](https://github.com/user-attachments/assets/dcfaf90e-e9ba-4d01-bcdc-b907c7e19a70)
+![image](https://github.com/user-attachments/assets/79c60ead-468c-40c8-be9e-6d3ca35b6c89)
 
