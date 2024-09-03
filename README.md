@@ -117,3 +117,4 @@ Then I made some little buscards:
 ![image](https://github.com/user-attachments/assets/dcfaf90e-e9ba-4d01-bcdc-b907c7e19a70)
 ![image](https://github.com/user-attachments/assets/79c60ead-468c-40c8-be9e-6d3ca35b6c89)
 
+I decided to use these little screw down terminals for all the connectors. They seem sturdy enough if you use solid copper, or add solder or ferrules to stranded copper. 
