@@ -10,6 +10,8 @@ I decided to go with the ESP32 for the microcontroller since it supports up to 8
 ![image](https://github.com/user-attachments/assets/dc49ffaf-ac4e-4327-b88e-88e1c3f9b8d1)
 https://medium.com/@cedricdiego0/esp32-with-an-external-adc-ads1115-a86d3b51bb8
 I found this screw terminal carrier board: https://s.click.aliexpress.com/e/_mtEjbfw
+![1000000819](https://github.com/user-attachments/assets/602de16a-0b2d-442e-bd9f-b72969a8c380)
+
 # Current Transformer Sensor (CT Sensor)
 CT sensors seem to be pretty expenseive, but I found this sensor on AliExpress: https://s.click.aliexpress.com/e/_DeVVdyx. For $1.29ea.
 1pc AC Current transformer CT for Mini ammeter Current meter 0-100A ratio : 1000:1 , XH2.54
