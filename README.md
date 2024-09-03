@@ -120,7 +120,7 @@ Then I made some little buscards:
 I decided to use these little screw down terminals for all the connectors. They seem sturdy enough if you use solid copper, or add solder or ferrules to stranded copper. 
 ![1000000815](https://github.com/user-attachments/assets/8a335231-9ee4-48ba-9f4e-841fa707b112)
 ![1000000817](https://github.com/user-attachments/assets/b4605d1b-d893-44a4-a9d4-c8c00963869e)
-
+https://s.click.aliexpress.com/e/_mrACAIc
 
 Here is my idea
 ![1000000813](https://github.com/user-attachments/assets/f1fd3168-fe88-4c47-9a29-0c5370b4886c)
