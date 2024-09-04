@@ -133,3 +133,4 @@ https://a.aliexpress.com/_mNYfWdK
 ![1000000812](https://github.com/user-attachments/assets/dc3e72bf-9fbf-448a-b6d3-c91359f21e2d)
 ![image](https://github.com/user-attachments/assets/96a35061-dbe2-4d68-8647-3579fd0790bb)
 
+https://wiki.seeedstudio.com/Grove-16-bit-ADC-ADS1115/status 
