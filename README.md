@@ -5,6 +5,9 @@ Up to 38 current sensors per board for full electrical panel monitoring.
 
 I wanted to measure the current of every branch from my main panel, and display the info in Home Assistant. In North America where I live, it is common to have a 200a split phase circuit coming in from the grid. a 120v line a neutral and an inverted 120v line. You get 240v by using the two hots, and you get 120v by using either one of the hots and the neutral. I looked up commercial whole panel energy monitoring kits, but they are $200 for 16 sensors. For my panel I need around 24 seperate sensors to monitor everything. So, I decided to go the diy route. I wanted a lego-like dev board aproach. Using off the shelf development circuit boards, custom PCBs, and 3D printed cases.
 
+Here is my idea
+![1000000813](https://github.com/user-attachments/assets/f1fd3168-fe88-4c47-9a29-0c5370b4886c)
+
 # Micro Controller
 I decided to go with the ESP32 for the microcontroller since it supports up to 8 analog inputs, (only 6 are exposed with the common dev board: NodeMCU-32s). It's cheap and available on Aliexpress or Amazon. It also has to I2C channels that can connect to other ADC devices like the ADC1115. The ADC1115 dev barod support 4 anaolog input pins, and 4 different I2c addresses per channel. So you can connect up to 8 of them per esp32 dev board. which supplies up to 32 analog inputs pins in addition to the 6 available on the dev board. 
 ![image](https://github.com/user-attachments/assets/dc49ffaf-ac4e-4327-b88e-88e1c3f9b8d1)
@@ -123,9 +126,6 @@ I decided to use these little screw down terminals for all the connectors. They 
 ![1000000815](https://github.com/user-attachments/assets/8a335231-9ee4-48ba-9f4e-841fa707b112)
 ![1000000817](https://github.com/user-attachments/assets/b4605d1b-d893-44a4-a9d4-c8c00963869e)
 https://s.click.aliexpress.com/e/_mrACAIc
-
-Here is my idea
-![1000000813](https://github.com/user-attachments/assets/f1fd3168-fe88-4c47-9a29-0c5370b4886c)
 
 Now to design the ADS1115 carrier board, with jumpers to change the address. I chose this one:
 $1.55 | 1PCS~10PCS EGBO 12 Bit/16 Bit I2C ADS1115 ADS1015  Module ADC 4 channel with Pro Gain Amplifier for Arduino RPi Purple Blue
