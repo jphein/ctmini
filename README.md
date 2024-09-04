@@ -131,3 +131,5 @@ Now to design the ADS1115 carrier board, with jumpers to change the address. I c
 $1.55 | 1PCS~10PCS EGBO 12 Bit/16 Bit I2C ADS1115 ADS1015  Module ADC 4 channel with Pro Gain Amplifier for Arduino RPi Purple Blue
 https://a.aliexpress.com/_mNYfWdK
 ![1000000812](https://github.com/user-attachments/assets/dc3e72bf-9fbf-448a-b6d3-c91359f21e2d)
+![image](https://github.com/user-attachments/assets/96a35061-dbe2-4d68-8647-3579fd0790bb)
+
