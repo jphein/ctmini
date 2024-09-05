@@ -116,25 +116,32 @@ sensor:
 ```
 ![image](https://github.com/user-attachments/assets/79098e75-5fd0-4e3d-b6e2-e429612ea5e1)
 ![20240902_133311](https://github.com/user-attachments/assets/ac521749-3a84-4242-8aa9-efcfaae87dba)
+Seems to work on.
+
+## ctmini sensor board developement
 ![Screenshot from 2024-09-02 14-46-53](https://github.com/user-attachments/assets/15ddaa2d-8c4b-49c8-9204-a49b5fb8423f)
 ![Screenshot from 2024-09-02 14-49-52](https://github.com/user-attachments/assets/8b25f68a-5d98-4a54-817c-0537f010dbc2)
 ![Screenshot from 2024-09-02 14-53-53](https://github.com/user-attachments/assets/09b89304-b2cd-4ca8-83bd-ca8d2e85ca6d)
 ![image](https://github.com/user-attachments/assets/3b02087b-465a-4353-ad68-c532d93c0285)
 ![image](https://github.com/user-attachments/assets/d2e487e4-97d4-434b-88ff-f5b23ce2c044)
 
+## ctmini buscard development
 Then I made some little buscards:
 ![image](https://github.com/user-attachments/assets/dcfaf90e-e9ba-4d01-bcdc-b907c7e19a70)
 ![image](https://github.com/user-attachments/assets/79c60ead-468c-40c8-be9e-6d3ca35b6c89)
 
+### Screw terminals
 I decided to use these little screw down terminals for all the connectors. They seem sturdy enough if you use solid copper, or add solder or ferrules to stranded copper. 
 ![1000000815](https://github.com/user-attachments/assets/8a335231-9ee4-48ba-9f4e-841fa707b112)
 ![1000000817](https://github.com/user-attachments/assets/b4605d1b-d893-44a4-a9d4-c8c00963869e)
 https://s.click.aliexpress.com/e/_mrACAIc
 
+## ADS1115 carrier board developement
 Now to design the ADS1115 carrier board, with jumpers to change the address. I chose this one:
 $1.55 | 1PCS~10PCS EGBO 12 Bit/16 Bit I2C ADS1115 ADS1015  Module ADC 4 channel with Pro Gain Amplifier for Arduino RPi Purple Blue
 https://a.aliexpress.com/_mNYfWdK
 ![1000000812](https://github.com/user-attachments/assets/dc3e72bf-9fbf-448a-b6d3-c91359f21e2d)
 ![image](https://github.com/user-attachments/assets/96a35061-dbe2-4d68-8647-3579fd0790bb)
 
+This board be seeed looks almost perfect, but not quite since I want to daisy chain the I2c bus. 
 https://wiki.seeedstudio.com/Grove-16-bit-ADC-ADS1115/status 
