@@ -36,6 +36,8 @@ https://github.com/danpeig/ESP32EnergyMonitor/blob/main/images/electronic_parts.
 I started with my own prototype to test the ct sensor, and the esphome's native ctsensor component. I used the first schematic. the one in the forum post, and it seemed to work. 
 ![20240902_113539](https://github.com/user-attachments/assets/80766e44-1a8f-4789-ad2a-26e74f23254c)
 Here is the ESPHome configuration for a simple one sensor test. I just used a static 120v to calculate watts, since I have not hooked up any high voltage sensor yet.
+
+### esphome yaml configuration
 ```
 #ctmini.yaml
 esphome:
@@ -114,11 +116,14 @@ sensor:
       - multiply: 0.001
     device_class: energy
 ```
+### Home Assistant sensor dashboard 
 ![image](https://github.com/user-attachments/assets/79098e75-5fd0-4e3d-b6e2-e429612ea5e1)
+
+### Comparing the current to a kill-a-watt
 ![20240902_133311](https://github.com/user-attachments/assets/ac521749-3a84-4242-8aa9-efcfaae87dba)
-Seems to work on.
 
 ## ctmini sensor board developement
+Now it's on to designing some simple PCBs.
 ![Screenshot from 2024-09-02 14-46-53](https://github.com/user-attachments/assets/15ddaa2d-8c4b-49c8-9204-a49b5fb8423f)
 ![Screenshot from 2024-09-02 14-49-52](https://github.com/user-attachments/assets/8b25f68a-5d98-4a54-817c-0537f010dbc2)
 ![Screenshot from 2024-09-02 14-53-53](https://github.com/user-attachments/assets/09b89304-b2cd-4ca8-83bd-ca8d2e85ca6d)
@@ -142,6 +147,6 @@ $1.55 | 1PCS~10PCS EGBO 12 Bit/16 Bit I2C ADS1115 ADS1015  Module ADC 4 channel 
 https://a.aliexpress.com/_mNYfWdK
 ![1000000812](https://github.com/user-attachments/assets/dc3e72bf-9fbf-448a-b6d3-c91359f21e2d)
 ![image](https://github.com/user-attachments/assets/96a35061-dbe2-4d68-8647-3579fd0790bb)
-
+ 
 This board be seeed looks almost perfect, but not quite since I want to daisy chain the I2c bus. 
 https://wiki.seeedstudio.com/Grove-16-bit-ADC-ADS1115/status 
