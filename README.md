@@ -32,6 +32,7 @@ https://github.com/danpeig/ESP32EnergyMonitor/blob/main/images/electronic_parts.
 
 I started with my own prototype to test the ct sensor, and the esphome's native ctsensor component. I used the first schematic. the one in the forum post, and it seemed to work. 
 ![20240902_113539](https://github.com/user-attachments/assets/80766e44-1a8f-4789-ad2a-26e74f23254c)
+Here is the ESPHome configuration for a simple one sensor test. I just used a static 120v to calculate watts, since I have not hooked up any high voltage sensor yet.
 ```
 #ctmini.yaml
 esphome:
