@@ -2,6 +2,7 @@
 Open Source Current Meter Project for Home Assistant (ESPHome)
 Open Hardware with schematics and gerber files. 
 Up to 38 current sensors per board for full electrical panel monitoring. 
+![image](https://github.com/user-attachments/assets/68f654b1-54f0-42e3-b408-b9a2f8240ef1)
 
 I wanted to measure the current of every branch from my main panel, and display the info in Home Assistant. In North America where I live, it is common to have a 200a split phase circuit coming in from the grid. a 120v line a neutral and an inverted 120v line. You get 240v by using the two hots, and you get 120v by using either one of the hots and the neutral. I looked up commercial whole panel energy monitoring kits, but they are $200-$250 for 16 sensors. For my panel I need around 24 seperate sensors to monitor everything. So, I decided to go the diy route. I wanted a lego-like dev board aproach. Using off the shelf development circuit boards, custom PCBs, and 3D printed cases.
 
