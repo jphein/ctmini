@@ -22,7 +22,7 @@ CT sensors seem to be pretty expenseive, but I found this sensor on AliExpress: 
 
 ###Schematic for sensor board.
 I found this schematic in the home assistant forums.
-![ct-schematic](https://github.com/user-attachments/assets/a160f52a-f98d-4488-a3d9-f8546ad63bfb) from  https://community.home-assistant.io/t/esphome-ct-clamp-30a-1v/284423 
+![ct-schematic](https://github.com/user-attachments/assets/a160f52a-f98d-4488-a3d9-f8546ad63bfb) from  https://community.home-assistant.io/t/esphome-ct-clamp-30a-1v/284423 @audacity363
 
 ### ESP32EnergyMonitor Project
 I found this project: https://github.com/danpeig/ESP32EnergyMonitor, based on this one: https://github.com/openenergymonitor/EmonLib
