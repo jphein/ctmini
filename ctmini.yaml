@@ -1,0 +1,77 @@
+#ESPHome config file
+#ctmini.yaml
+esphome:
+  name: current-sensors
+  friendly_name: current sensors
+
+esp32:
+  board: nodemcu-32s
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# then remember to add time, you need this for daily consumption sensors
+# add the following:
+time:
+  - platform: sntp
+    id: my_time
+
+sensor:
+  - platform: adc
+    pin: A0
+    id: adc_sensor0
+    update_interval: 6s
+    attenuation: auto
+
+  - platform: ct_clamp
+    sensor: adc_sensor0
+    name: "Sensor0 Current"
+    update_interval: 10s
+    filters: 
+      - calibrate_linear: 
+        - 0.00773 -> 0
+        - 0.09481 -> 0.04
+        - 1.07216 -> 0.80
+    id: sensor0
+    internal: True
+
+  - platform: template				# this will be the final current reading visible in the front end		
+    name: "Sensor0 Current"            
+    id: current0
+    lambda: |-					        
+      if (id(sensor0).state > 0.01){ 
+        return (id(sensor0).state);
+      } else {
+        return 0.0;
+      }
+    device_class: current
+    update_interval: 5s
+    accuracy_decimals: 2			
+    unit_of_measurement: A  
+
+  - platform: total_daily_energy #this will calculate the total current used for the day (AmpHour)
+    name: "Sensor0 Daily Current"
+    power_id: current0
+    accuracy_decimals: 2
+    unit_of_measurement: Ah
+
+  - platform: template				#this sensor will measure your power0 consumption (Watt)
+    name: "Sensor0 Measured Power"            
+    id: power0
+    lambda: |-
+      return id(current0).state * 120;
+    accuracy_decimals: 2
+    update_interval: 5s
+    device_class: power
+    unit_of_measurement: W
+
+  - platform: total_daily_energy  		#this will keep track of power0 consumed daily (kwh)      
+    name: "Sensor0 Total Daily Power Consumption"
+    unit_of_measurement: kWh
+    power_id: power0
+    accuracy_decimals: 2
+    filters:
+      - multiply: 0.001
+    device_class: energy
