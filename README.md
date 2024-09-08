@@ -1,6 +1,6 @@
 # ctmini
 Open Source Current Meter Project for Home Assistant (ESPHome)
-Open Hardware with schematics and gerber files. 
+Modular Open Hardware with schematics and gerber files. 
 Up to 38 current sensors per board for full electrical panel monitoring. 
 
 Thank you all the fine folks at ESPHome, Home Assistant, OpenEnergyMonitor, ESP32EnergyMonitor Project, and everyone else who contributed to making this possible!
