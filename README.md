@@ -18,6 +18,9 @@ I decided to go with the ESP32 for the microcontroller since it supports up to 8
 https://medium.com/@cedricdiego0/esp32-with-an-external-adc-ads1115-a86d3b51bb8
 I found this screw terminal carrier board: https://s.click.aliexpress.com/e/_mtEjbfw
 ![1000000819](https://github.com/user-attachments/assets/602de16a-0b2d-442e-bd9f-b72969a8c380)
+With this 3D model I printed a case. I used grey PLA to match most of the othe electrical boxes in my cabinet. 
+![20240911_093636~2](https://github.com/user-attachments/assets/14aa9e66-bd2e-4f26-8039-0de068a839ed)
+
 
 ## Current Transformer Sensor (CT Sensor)
 CT sensors seem to be pretty expenseive, but I found this sensor on AliExpress: https://s.click.aliexpress.com/e/_DeVVdyx. For $1.29ea.
